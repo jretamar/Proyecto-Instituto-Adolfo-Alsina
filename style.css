@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+}
+./* font-family: 'Montserrat', sans-serif;*/
+
+a {
+    color: rgb(55, 0, 255);
+}
+li {
+    color: blue;
+}
+.barraNavegacion_lista{
+    border: solid 1px;
+}
+.barraNavegacion_lista li{
+    list-style: none;
+
+    margin-top: auto;
+    display:inline-block;
+    margin: 20px;
+}
+
+
+.parrafoHome {
+   font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: rgb(25, 23, 41);
+    font-size: 16px;
+}
+.nombreColegio {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    margin-top:auto;
+    
+}
+.parrafoFooter {
+    color: blue;
+    font-size: 20px
+
+}
+.parrafoRedes {
+    color: green;
+    font-size: 20px;
+    
+}
+.imagenInstagram {
+    height: 50px;
+    width: 50px;
+    
+
+}
+.imagenFacebook {
+    height: 50px;
+    width: 50px;
+}
+.imagenPrincipal {
+    height: 120px;
+    width: 120px;
+}
+.inicio {
+    text-align: center;
+    font-size: 40px;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+.padre{
+    border: solid 1px;
+    background-color: rgba(228, 250, 215, 0.596);
+    height: 1000px;
+    width: auto;
+}
+.hijo{
+    width:fit-content;
+    padding: 50px;
+
+}
+.navegacionContacto {
+    padding-left: 60%;
+}
+.footerIndex {
+    border: solid;
+}
