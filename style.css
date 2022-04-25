@@ -45,7 +45,9 @@ li {
 }
 .parrafoFooter {
     color: blue;
-    font-size: 20px
+    font-size: 20px;
+    /*LISTO PARA MERGEAR*/
+    transition: all 4s;
 
 }
 .parrafoRedes {
