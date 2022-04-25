@@ -2,6 +2,10 @@
     margin: 0;
     padding:0;
 }
+body {
+    min-height: 100vh;
+    position: relative;
+}
 ./* font-family: 'Montserrat', sans-serif;*/
 
 a {
@@ -11,14 +15,15 @@ li {
     color: blue;
 }
 .barraNavegacion_lista{
+    background-image: linear-gradient(green, yellow);
     border: solid 1px;
 }
-.barraNavegacion_lista li{
+.barraNavegacion_lista li:hover{
     list-style: none;
-
     margin-top: auto;
     display:inline-block;
     margin: 20px;
+    transform: scale(1);
 }
 
 
@@ -28,12 +33,14 @@ li {
     text-align: center;
     color: rgb(25, 23, 41);
     font-size: 16px;
+    
 }
 .nombreColegio {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 90px;
+    font-size: 70px;
     margin-top:auto;
+    transition: all 1s;
     
 }
 .parrafoFooter {
@@ -49,12 +56,16 @@ li {
 .imagenInstagram {
     height: 50px;
     width: 50px;
+    float: right;
+    
     
 
 }
 .imagenFacebook {
     height: 50px;
     width: 50px;
+    float: right;
+
 }
 .imagenPrincipal {
     height: 120px;
@@ -63,25 +74,99 @@ li {
 .inicio {
     text-align: center;
     font-size: 40px;
+    
 }
 .main {
     height: 100vh;
     width: 100vw;
 }
+.mainContacto {
+    height: 100vh;
+    width: 100vw;
+}
+.mainNoticias {
+    height: 100vh;
+    width: 100vw;
+}
+.mainNiveles {
+    height: 100vh;
+    width: 100vw;
+}
+.mainNosotros {
+    height: 100vh;
+    width: 100vw;
+}
+    
 .padre{
     border: solid 1px;
     background-color: rgba(228, 250, 215, 0.596);
-    height: 1000px;
+    height: 100px;
     width: auto;
 }
 .hijo{
     width:fit-content;
-    padding: 50px;
+    align-items: center;
+    
 
 }
 .navegacionContacto {
     padding-left: 60%;
 }
-.footerIndex {
+
+footer {
+    position:absolute;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgba(172, 255, 47, 0.473);
     border: solid;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+
+}
+
+.galeria__imagen {
+    height: 350px;
+    width: 350px;
+    object-fit: cover ;
+}
+
+@media only screen and (max-width: 768px ) {
+    .galeria__imagen {
+        height: 200px;
+        width: 100px;
+        margin:auto;
+        display: block;
+    }
+}
+
+footer a{
+    list-style: none;
+    color: rgb(0, 0, 0)
+}
+.iconosFooter li {
+    list-style: none;
+    display: flex;
+    margin:auto;
+    display:inline-block;
+    
+}
+.frenteColegio {
+    height: 300px;
+    width: 300px;
+    object-fit: cover ;
+}
+.mainContent {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    align-items: center;
+    width: 200px;
+    
+    
+    
+
+
 }
