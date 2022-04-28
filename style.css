@@ -6,26 +6,9 @@ body {
     min-height: 100vh;
     position: relative;
 }
-./* font-family: 'Montserrat', sans-serif;*/
-
-a {
-    color: rgb(55, 0, 255);
-}
-li {
+li{
     color: blue;
 }
-.barraNavegacion_lista{
-    background-image: linear-gradient(green, yellow);
-    border: solid 1px;
-}
-.barraNavegacion_lista li:hover{
-    list-style: none;
-    margin-top: auto;
-    display:inline-block;
-    margin: 20px;
-    transform: scale(1);
-}
-
 
 .parrafoHome {
    font-weight: 900;
@@ -37,36 +20,17 @@ li {
 }
 .nombreColegio {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align:center;
     font-size: 70px;
-    margin-top:auto;
+    margin-top:top;
     transition: all 1s;
     
 }
 .parrafoFooter {
-    color: blue;
+    color: rgb(4, 4, 4);
     font-size: 20px;
     /*LISTO PARA MERGEAR*/
     transition: all 4s;
-
-}
-.parrafoRedes {
-    color: green;
-    font-size: 20px;
-    
-}
-.imagenInstagram {
-    height: 50px;
-    width: 50px;
-    float: right;
-    
-    
-
-}
-.imagenFacebook {
-    height: 50px;
-    width: 50px;
-    float: right;
 
 }
 .imagenPrincipal {
@@ -78,97 +42,58 @@ li {
     font-size: 40px;
     
 }
-.main {
-    height: 100vh;
+.mainIndex {
+    height: 150vh;
     width: 100vw;
 }
 .mainContacto {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 }
 .mainNoticias {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 }
 .mainNiveles {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 }
 .mainNosotros {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 }
-    
-.padre{
-    border: solid 1px;
-    background-color: rgba(228, 250, 215, 0.596);
-    height: 100px;
-    width: auto;
-}
-.hijo{
-    width:fit-content;
-    align-items: center;
-    
-
-}
-.navegacionContacto {
-    padding-left: 60%;
-}
-
-footer {
-    position:absolute;
-    width: 100vw;
-    bottom: 0;
+.footer {
     background-color: rgba(172, 255, 47, 0.473);
     border: solid;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-
 }
-
-.galeria__imagen {
-    height: 350px;
-    width: 350px;
-    object-fit: cover ;
+.parrafoNoticias {
+    text-align: center;
 }
-
-@media only screen and (max-width: 768px ) {
-    .galeria__imagen {
-        height: 200px;
-        width: 100px;
-        margin:auto;
-        display: block;
-    }
+.carousel-item {
+    height: 500px;
 }
-
-footer a{
-    list-style: none;
-    color: rgb(0, 0, 0)
-}
-.iconosFooter li {
-    list-style: none;
-    display: flex;
-    margin:auto;
-    display:inline-block;
-    
+.carousel-item img {
+    height: 500px;
 }
 .frenteColegio {
-    height: 300px;
-    width: 300px;
-    object-fit: cover ;
+    height: 500px;
+    width:1000px ;
 }
-.mainContent {
-    margin: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    align-items: center;
-    width: 200px;
+.barraNavegacion{
+      background-color: rgba(5, 97, 5, 0.644);
+}
+.footer__logo {
+    width: 100px;
+    height: auto;
+    position: relative;
+    
+}
+.footer__logos {
+    display: flex;
+    justify-content: space-evenly;
     
     
-    
-
-
+} 
+.footer__logos a {
+   color: black;
 }
