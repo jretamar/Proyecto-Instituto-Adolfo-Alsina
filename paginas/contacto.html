@@ -16,7 +16,7 @@
 
 <body>
   <header>
-    <img class="imagenPrincipal" src="./imagenes/logo alsina sin fondo png.png" alt="Logo del nombreColegio"> 
+    <img class="imagenPrincipal" src="../imagenes/logo alsina sin fondo png.png" alt="Logo del nombreColegio"> 
     <h1 class="nombreColegio">Instituto Adolfo Alsina</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -48,7 +48,7 @@
     
   </header>
 
-    <main class="mainContacto">
+    <main class="container-fluid  ">
      <section>
         
         <div>
@@ -60,31 +60,30 @@
           </p>
         </div>
      </section>
-     <Form>
-        <div>
-            <input type="text" placeholder="Nombre y Apellido">
-        </div>
-        <div>
-            <label for="fecha_nacimiento" >Fecha de nacimiento: </label> <br>
-        <div> 
-              
+     <div class="row grid__contacto">
+       <div class="g-col-4 col-md-1 col-sm-12">
+         <Form class="formulario">
+           <div>
+              <input type="text" placeholder="Nombre y Apellido">
+           </div>
+          <div>
+              <label for="fecha_nacimiento" >Fecha de nacimiento: </label> <br>
+          <div> 
               <input type="date" placeholder="fecha_nacimiento"> 
+            </div>
+            <div>
+              <input type="button" value="Enviar">
+            </div>   
             
-        </div>
-            
+          </Form>
+    </div>
+      <div class="g-col-8 col-md-1 col-sm-12"> </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.0274210520706!2d-58.348394085187856!3d-34.80525197569544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32c9fb641cee7%3A0xc84d043650d71ee1!2sInstituto%20Adolfo%20Alsina!5e0!3m2!1ses!2sar!4v1651604335984!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       
-          
-       <input type="button" value="Enviar">
-        
-        
-        
-       
-    </Form>
+    </div>
+     
   </main>
-</label> <br>
-</label> <br>
-</label> <br>
-</label> <br>
+
 
 <footer class="container-fluid footer">
   <div class="row">
@@ -99,7 +98,7 @@
          </div>
       </div>
     <div class="col-lg-6 col-md-3 col-sm-12">
-      <img class="footer__logo" src="./imagenes/logo alsina sin fondo png.png" alt="Logo del nombreColegio">
+      <img class="footer__logo" src="../imagenes/logo alsina sin fondo png.png" alt="Logo del nombreColegio">
      </div>
            
      <div class="col-lg-4 col-md-6 col-sm-12 footer__logos">
