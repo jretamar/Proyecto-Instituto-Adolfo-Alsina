@@ -1,0 +1,68 @@
+body {
+  min-height: 100vh;
+  position: relative; }
+
+.bodyIndex {
+  background-image: url(/instituto-adolfo-alsina-JAVIER-RETAMAR/imagenes/colegiofrente.jpeg); }
+
+.mainPaginas {
+  height: 150vh;
+  width: 100vw; }
+
+.parrafoFooter {
+  color: #040404;
+  font-size: 20px;
+  transition: all 4s; }
+
+.footer {
+  background-color: rgba(172, 255, 47, 0.473);
+  border: solid; }
+
+.footer__logo {
+  width: 100px;
+  height: auto;
+  position: relative; }
+
+.footer__logos {
+  display: flex;
+  justify-content: space-evenly; }
+
+.footer__logos a {
+  color: black; }
+
+.parrafoContacto {
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  color: #191729;
+  font-size: 16px; }
+
+.nombreColegio {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  margin-top: top;
+  transition: all 1s; }
+
+.barraNavegacion {
+  background-color: rgba(5, 97, 5, 0.644); }
+
+.parrafoHome {
+  font-style: normal;
+  text-align: center;
+  color: #191729;
+  font-size: 16px; }
+
+.nombreColegio {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  margin-top: top;
+  transition: all 1s; }
+
+.imagenPrincipal {
+  height: 120px;
+  width: 120px; }
+
+.carousel-item img {
+  height: 500px; }
