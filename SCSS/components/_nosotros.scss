@@ -1,0 +1,8 @@
+.parrafoNosotros {
+    @include flexbox(column, flex-start, center );
+    font-style:normal;
+    text-align: center;
+    color: rgb(25, 23, 41);
+    font-size: 16px;
+ }
+ 
