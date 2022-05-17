@@ -1,25 +1,50 @@
-.parrafoFooter {
-    color: rgb(4, 4, 4);
-    font-size: 20px;
-    transition: all 4s;
-
-}
+/*ANIDAMIENTO*/
 .footer {
-    background-color: rgba(172, 255, 47, 0.473);
+    background-color: $color-footer;
     border: solid;
-}
-.footer__logo {
-    width: 100px;
-    height: auto;
-    position: relative;
+    .row {
+       
+        .parrafoFooter {
+            color: rgb(4, 4, 4);
+            font-size: 20px;
+            transition: all 4s;
+        }
+        .div_footer__logo {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+               .footer__logo {
+                 width: 100px;
+                 height: auto;
+                 display: flex;
+                 flex-wrap: wrap;
+                 justify-content: space-between;
+                 list-style-type: none;
+                 }
+                }    
+
+        .footer__logos {
+                    display: flex;
+                    justify-content: space-around;
+                    align-content:space-around;
+                    flex-direction: row;
+                    padding-top: 50px;
+                    a {
+                        color: black;
+                        text-align: end;
+                         
+                     
+                     }
+                    
+                    
+                } 
+                
+            
+          
+        } 
+    }
     
-}
-.footer__logos {
-    display: flex;
-    justify-content: space-evenly;
-    
-    
-} 
-.footer__logos a {
-   color: black;
-}
+  
+
+
+

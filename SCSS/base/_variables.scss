@@ -1,2 +1,27 @@
 $color-principal: blue;
-$opacity: 1
+$color-footer: rgba(172, 255, 47, 0.473);
+$opacity: 1;
+
+/*implementacion MAPS*/
+
+$tamanio-tipografia: ( 
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px,
+    letra-chica: 12px
+);
+
+/*EXTEND*/
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+/*MIXIN*/
+@mixin flexbox ($direction, $justify, $align){
+    display: flex;
+    direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+};
