@@ -15,10 +15,14 @@ body {
   height: 150vh;
   width: 100vw; }
 
+.foto_colegio {
+  width: 1200px; }
+
 /*ANIDAMIENTO*/
 .footer {
   background-color: rgba(172, 255, 47, 0.473);
-  border: solid; }
+  border: solid;
+  height: 100px; }
   .footer .row .parrafoFooter {
     color: #040404;
     font-size: 20px;
@@ -48,8 +52,11 @@ body {
   font-weight: 900;
   font-style: italic;
   text-align: center;
-  color: #191729;
+  color: #0a0913;
   font-size: 16px; }
+
+.mapa {
+  border: solid; }
 
 .imagenPrincipal {
   height: 120px;
@@ -80,4 +87,5 @@ li {
   font-size: 12px; }
 
 .carousel-item img {
+  border: black;
   height: 500px; }
